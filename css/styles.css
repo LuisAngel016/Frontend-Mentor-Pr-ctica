@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,300&display=swap');
+
+::root {
+    --fontSize: 16px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    margin: 60px;
+    background-color: hsla(218, 20%, 76%, 0.368);
+}
+
+/* ------------------------------- Estilos de la section #1 ----------------------------------- */
+
+.-contenedor {
+    margin: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+
+.container-1 {
+    position: relative;
+    background-color: hsl(0, 0%, 100%);
+    padding: 40px;
+    border-radius: 8px 8px 0 0;    
+}
+
+.titulo-1 {
+    color: hsl(179, 62%, 43%);
+    padding-bottom: 20px;
+    font-size: var(--fontSize);
+}
+
+.subtitulo {
+    color: hsl(71, 73%, 54%);
+    padding-bottom: 15px;
+    font-size: var(--fontSize);
+}
+
+.text1 {
+    padding-bottom: 5px;
+    color: hsl(218, 22%, 67%);
+    font-size: var(--fontSize);
+}
+
+.text2 {
+    color: hsl(218, 22%, 67%);
+    font-size: var(--fontSize);
+}
+
+
+
+/* ------------------------------- Estilos de la section #2 ----------------------------------- */
+
+
+.-contenedor1 {
+    display: flex;
+    /* width: 600px; */
+}
+
+
+.container-2 {
+    background-color: hsl(179, 68%, 38%);
+    padding: 40px;
+    border-radius: 0 0 0 8px; 
+    width: 300px;
+    color: hsl(204, 43%, 93%);
+}
+
+.titulo-2 {
+    font-size: var(--fontSize);
+    padding-bottom: 20px;
+}
+
+.texto--1 {
+    padding-bottom: 8px;
+}
+
+.texto--1 b {
+    font-size: 30px;
+}
+
+.texto--1 small {
+    color: hsla(0, 0%, 100%, 0.455);
+}
+
+.texto--2 {
+    padding-bottom: 30px;
+}
+
+div .button {
+    text-align: center;
+}
+
+.button {
+    padding: 15px;
+    background-color:  hsl(71, 73%, 54%);
+    color: inherit;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    border-radius: 7px;
+}
+
+.button:hover {
+    background-color: #000;
+    color: hsl(204, 43%, 93%);
+}
+
+
+
+
+
+
+/* ------------------------------- Estilos de la section #3 ----------------------------------- */
+
+.container-3 {
+    background-color: hsl(179, 74%, 43%);
+    padding: 40px;
+    border-radius: 0 0 8px 0; 
+    width: 300px;
+    color: hsl(204, 43%, 93%);
+}
+
+.titulo-3 {
+    font-size: var(--fontSize);
+    padding-bottom: 20px;
+}
+
+.container-3 p {
+    padding: 2px;
+}
+
+
+
+/* ------------------------------- Estilos del footer ----------------------------------- */
+.attribution {
+    font-size: var(--fontSize);
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
